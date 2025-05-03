@@ -187,7 +187,8 @@ leafOrder = optimalleaforder(Z, Y);
 
 % 重排
 mua_corr_sorted = mua_corr(leafOrder, leafOrder);
-%leafOrder的第一行，第n列数字为k，即把原来的第k号神经元重排至第n号
+
+%leafOrder的第n列数字为k，即把原来的第k号神经元重排至新图的第n号位置
 
 % 可视化
 figure;
